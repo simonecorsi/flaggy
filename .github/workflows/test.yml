@@ -3,6 +3,8 @@
 
 name: test
 
+on: [push]
+
 jobs:
   publish-npm:
     needs: build
