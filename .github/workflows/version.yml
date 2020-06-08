@@ -4,16 +4,10 @@ on:
   push:
     branches:
       - master
-  merge:
-    branches:
-      - master
 
 jobs:
   release:
     runs-on: ubuntu-latest
-
-    if: github.actor == github.event.repository.owner.login
-
     steps:
       - name: Conventional Changelog Action
         uses: TriPSs/conventional-changelog-action@v2
