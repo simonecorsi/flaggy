@@ -25,4 +25,11 @@ function main(opts = {}, stringify = false) {
   return parsed;
 }
 
-module.exports = main;
+if (require.main === module) {
+  module.exports = main;
+} else {
+  module.exports = {
+    parse,
+    main,
+  };
+}
