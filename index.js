@@ -1,14 +1,15 @@
 const kebab = require("lodash.kebabcase");
 
 const parse = (key, value) => {
+  const hyphens = key.length > 1 ? "--" : "-";
+
+  if (typeof value === "boolean") return [`${hyphens}${key}`];
+
   value = value.toString();
-  if (key.length === 1) {
-    return [`-${key}`, value];
-  }
   if (value.includes(" ") || value.includes("$")) {
-    return [`--${kebab(key)}="${value}"`];
+    return [`${hyphens}${kebab(key)}="${value}"`];
   }
-  return [`--${kebab(key)}`, value];
+  return [`${hyphens}${kebab(key)}`, value];
 };
 
 function main(opts = {}, stringify = false) {
