@@ -1,4 +1,17 @@
-- name: Conventional Changelog Action
-  uses: TriPSs/conventional-changelog-action@v2
-  with:
-    github-token: ${{ secrets.github_token }}
+name: Release
+
+on:
+  watch:
+    types: [started]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    if: github.actor == github.event.repository.owner.login
+
+    steps:
+      - name: Conventional Changelog Action
+        uses: TriPSs/conventional-changelog-action@v2
+        with:
+          github-token: ${{ secrets.github_token }}
