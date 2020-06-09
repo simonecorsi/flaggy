@@ -1,12 +1,9 @@
 name: Bump version
 
 on:
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - "package.json"
-      - "CHANGELOG.md"
+  pull_request:
+    types: [closed]
+    branches: master
 
 jobs:
   test:
