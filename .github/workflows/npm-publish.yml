@@ -4,7 +4,8 @@
 name: NPM Publish
 
 on:
-  push: [tags]
+  push:
+    tags: ["**"]
 
 jobs:
   test:
