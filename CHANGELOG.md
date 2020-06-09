@@ -1,4 +1,8 @@
-# 1.2.0 (2020-06-09)
+## [1.2.1](https://github.com/Kirkhammetz/flaggy/compare/1.2.0...1.2.1) (2020-06-09)
+
+
+
+# [1.2.0](https://github.com/Kirkhammetz/flaggy/compare/82ee267e5bb18296cd0c69bc980269fce88c9566...1.2.0) (2020-06-09)
 
 
 ### Bug Fixes
