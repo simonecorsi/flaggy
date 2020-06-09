@@ -1,6 +1,6 @@
 {
   "name": "flaggy",
-  "version": "1.0.0-0",
+  "version": "1.1.0",
   "description": "Generates flags for unix command from a key/value object",
   "main": "index.js",
   "scripts": {
