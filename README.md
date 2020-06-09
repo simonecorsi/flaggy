@@ -6,14 +6,13 @@
 
 <!-- toc -->
 
-- [flaggy](#flaggy)
-  - [About The Project](#about-the-project)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
-  - [Acknowledgements](#acknowledgements)
+- [About The Project](#about-the-project)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 <!-- tocstop -->
 
@@ -79,4 +78,4 @@ Simone Corsi - [@im_simonecorsi](https://twitter.com/im_simonecorsi)
 
 ## Acknowledgements
 
-- [lcov parsing mega switch](https://github.com/davglass/lcov-parse) - from davglass
+- [malcommac](https://github.com/malcommac) - for inspiration after seeing his string concatenations
