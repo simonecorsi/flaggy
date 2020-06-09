@@ -3,7 +3,9 @@
 
 name: NPM Publish
 
-on: [release]
+on:
+  release:
+    types: [published]
 
 jobs:
   test:
