@@ -1,17 +1,4 @@
-# [1.2.0](https://github.com/Kirkhammetz/flaggy/compare/1.1.1...1.2.0) (2020-06-12)
-
-
-### Features
-
-* moved dependency inside ([490680e](https://github.com/Kirkhammetz/flaggy/commit/490680ece17688ded81ef9b6fe48dad666e33b1a)), closes [#10](https://github.com/Kirkhammetz/flaggy/issues/10)
-
-
-
-## [1.1.1](https://github.com/Kirkhammetz/flaggy/compare/1.1.0...1.1.1) (2020-06-12)
-
-
-
-# [1.1.0](https://github.com/Kirkhammetz/flaggy/compare/82ee267e5bb18296cd0c69bc980269fce88c9566...1.1.0) (2020-06-12)
+# 1.3.0 (2020-06-12)
 
 
 ### Bug Fixes
@@ -22,6 +9,7 @@
 
 ### Features
 
+* moved dependency inside ([490680e](https://github.com/Kirkhammetz/flaggy/commit/490680ece17688ded81ef9b6fe48dad666e33b1a)), closes [#10](https://github.com/Kirkhammetz/flaggy/issues/10)
 * pushing to master generates release ([8604d14](https://github.com/Kirkhammetz/flaggy/commit/8604d14fdcba70c9e44ed87fd9c0ee9adaeb3155))
 * **action:** added pr tests and fixes ([e38411a](https://github.com/Kirkhammetz/flaggy/commit/e38411af9dc47a32aa6dc879f34734c0ac4af03c))
 * **action:** better actions ([0cd67a9](https://github.com/Kirkhammetz/flaggy/commit/0cd67a9f8a6ecd913b143af6c57fe5ef77ee21ba))
