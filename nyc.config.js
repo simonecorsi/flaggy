@@ -1,3 +1,3 @@
 module.exports = {
-  exclude: ["*tests*", "*fixtures*"],
+  exclude: ["*tests*", "*fixtures*", "*libs*"],
 };

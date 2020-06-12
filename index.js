@@ -1,4 +1,5 @@
-const kebab = require("lodash.kebabcase");
+"use strict";
+const dashify = require("./libs/dashify");
 
 const parse = (key, value) => {
   const hyphens = key.length > 1 ? "--" : "-";
@@ -7,9 +8,9 @@ const parse = (key, value) => {
 
   value = value.toString();
   if (value.includes(" ") || value.includes("$")) {
-    return [`${hyphens}${kebab(key)}="${value}"`];
+    return [`${hyphens}${dashify(key)}="${value}"`];
   }
-  return [`${hyphens}${kebab(key)}`, value];
+  return [`${hyphens}${dashify(key)}`, value];
 };
 
 function main(opts = {}, stringify = false) {
