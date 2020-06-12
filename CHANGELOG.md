@@ -1,5 +1,12 @@
+## <small>1.3.9 (2020-06-12)</small>
+
+* docs(sample): added samples ([a4f1c61](https://github.com/Kirkhammetz/flaggy/commit/a4f1c61))
+
+
+
 ## <small>1.3.8 (2020-06-12)</small>
 
+* chore(release): 1.3.8 ([919b11b](https://github.com/Kirkhammetz/flaggy/commit/919b11b))
 * fix(module.exports): changed the way function are exported ([ac8258d](https://github.com/Kirkhammetz/flaggy/commit/ac8258d))
 
 
@@ -22,13 +29,6 @@
 
 * chore(release): 1.3.5 ([7ba78c7](https://github.com/Kirkhammetz/flaggy/commit/7ba78c7))
 * ci(releaser): hopefully this will generate changelog ([9f00eec](https://github.com/Kirkhammetz/flaggy/commit/9f00eec))
-
-
-
-## <small>1.3.4 (2020-06-12)</small>
-
-* chore(release): 1.3.4 ([9075fd6](https://github.com/Kirkhammetz/flaggy/commit/9075fd6))
-* ci(releaser): update create-release action ([abde1dd](https://github.com/Kirkhammetz/flaggy/commit/abde1dd))
 
 
 
