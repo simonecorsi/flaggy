@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/Kirkhammetz/flaggy#readme",
   "author": "Simone Corsi <simonecorsi.rm@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash.kebabcase": "^4.1.1"
   },
