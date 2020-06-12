@@ -1,5 +1,12 @@
+## <small>1.3.7 (2020-06-12)</small>
+
+* docs(license): changed license ([39baca8](https://github.com/Kirkhammetz/flaggy/commit/39baca8))
+
+
+
 ## <small>1.3.6 (2020-06-12)</small>
 
+* chore(release): 1.3.6 ([90372c2](https://github.com/Kirkhammetz/flaggy/commit/90372c2))
 * ci(releaser): added different changelog output ([cd3f162](https://github.com/Kirkhammetz/flaggy/commit/cd3f162))
 
 
@@ -22,13 +29,6 @@
 
 * chore(release): 1.3.3 ([f00e2c9](https://github.com/Kirkhammetz/flaggy/commit/f00e2c9))
 * ci(docs): generating only last relaese ([a4016a0](https://github.com/Kirkhammetz/flaggy/commit/a4016a0))
-
-
-
-## <small>1.3.2 (2020-06-12)</small>
-
-* chore(release): 1.3.2 ([818965a](https://github.com/Kirkhammetz/flaggy/commit/818965a))
-* ci(docs): removed angular preset ([deccbae](https://github.com/Kirkhammetz/flaggy/commit/deccbae))
 
 
 
