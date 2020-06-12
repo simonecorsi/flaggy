@@ -1,4 +1,4 @@
-name: Bump version
+name: Publish workflow
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
 
 jobs:
   test:
+    name: Test suite
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,28 +19,30 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-      # - name: Bump version and push tag
-      #   - uses: actions/checkout@v2
-      #     with:
-      #       token: ${{ secrets.GITHUB_TOKEN }}
-      #   - uses: TriPSs/conventional-changelog-action@v2
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     git-message: "chore(release): {version}"
-      #     tag-prefix: ""
-      #     release-count: 0
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Bump version and push tag
+        uses: TriPSs/conventional-changelog-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          git-message: "chore(release): {version}"
+          tag-prefix: ""
+          release-count: 0
+
       - name: Create github Release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.github_token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
 
   publish-npm:
-    needs: version
+    needs: [test, version]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
