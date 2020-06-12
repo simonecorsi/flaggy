@@ -1,5 +1,12 @@
+## <small>1.3.5 (2020-06-12)</small>
+
+* ci(releaser): hopefully this will generate changelog ([9f00eec](https://github.com/Kirkhammetz/flaggy/commit/9f00eec))
+
+
+
 ## <small>1.3.4 (2020-06-12)</small>
 
+* chore(release): 1.3.4 ([9075fd6](https://github.com/Kirkhammetz/flaggy/commit/9075fd6))
 * ci(releaser): update create-release action ([abde1dd](https://github.com/Kirkhammetz/flaggy/commit/abde1dd))
 
 
@@ -22,13 +29,6 @@
 
 * chore(release): 1.3.1 ([101cd23](https://github.com/Kirkhammetz/flaggy/commit/101cd23))
 * ci(fix): should fix release not not generated ([3c8eeaa](https://github.com/Kirkhammetz/flaggy/commit/3c8eeaa))
-
-
-
-## 1.3.0 (2020-06-12)
-
-* chore(release): 1.3.0 ([bc95209](https://github.com/Kirkhammetz/flaggy/commit/bc95209))
-* ci(action): added github release notes ([d44c1b6](https://github.com/Kirkhammetz/flaggy/commit/d44c1b6)), closes [#12](https://github.com/Kirkhammetz/flaggy/issues/12)
 
 
 
