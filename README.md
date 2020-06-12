@@ -68,10 +68,11 @@ fstring = flaggy(
     s: "short",
     string: "hi",
     iCantGetWhy: "This is so long",
+    weHaveListToo: ["one", "long value"],
   },
   true
 );
-// -t --number 1 --boolean -s short --string hi --i-cant-get-why="This is so long"
+// -t --number 1 --boolean -s short --string hi --i-cant-get-why="This is so long" --we-have-list-too one --we-have-list-too="long value"
 ```
 
 <!-- CONTRIBUTING -->
