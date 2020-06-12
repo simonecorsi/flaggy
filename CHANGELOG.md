@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/Kirkhammetz/flaggy/compare/1.1.1...1.2.0) (2020-06-12)
+
+
+### Features
+
+* moved dependency inside ([490680e](https://github.com/Kirkhammetz/flaggy/commit/490680ece17688ded81ef9b6fe48dad666e33b1a)), closes [#10](https://github.com/Kirkhammetz/flaggy/issues/10)
+
+
+
 ## [1.1.1](https://github.com/Kirkhammetz/flaggy/compare/1.1.0...1.1.1) (2020-06-12)
 
 
