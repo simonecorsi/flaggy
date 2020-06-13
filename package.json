@@ -14,7 +14,20 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "homepage": "https://github.com/Kirkhammetz/flaggy#readme",
+  "keywords": [
+    "nodejs",
+    "npm",
+    "javascript",
+    "stringify",
+    "argv",
+    "opt",
+    "flag",
+    "command",
+    "parser",
+    "option parser",
+    "options"
+  ],
+  "homepage": "https://github.com/Kirkhammetz/flaggy",
   "author": "Simone Corsi <simonecorsi.rm@gmail.com>",
   "license": "MIT",
   "dependencies": {},
