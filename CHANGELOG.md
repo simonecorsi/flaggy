@@ -1,5 +1,12 @@
+## <small>1.3.11 (2020-06-13)</small>
+
+* ci(cache): added npm cache ([6b5d53f](https://github.com/Kirkhammetz/flaggy/commit/6b5d53f))
+
+
+
 ## <small>1.3.10 (2020-06-12)</small>
 
+* chore(release): 1.3.10 ([9cef163](https://github.com/Kirkhammetz/flaggy/commit/9cef163))
 * docs: better samples ([1f4ef39](https://github.com/Kirkhammetz/flaggy/commit/1f4ef39))
 
 
@@ -22,13 +29,6 @@
 
 * chore(release): 1.3.7 ([35ae417](https://github.com/Kirkhammetz/flaggy/commit/35ae417))
 * docs(license): changed license ([39baca8](https://github.com/Kirkhammetz/flaggy/commit/39baca8))
-
-
-
-## <small>1.3.6 (2020-06-12)</small>
-
-* chore(release): 1.3.6 ([90372c2](https://github.com/Kirkhammetz/flaggy/commit/90372c2))
-* ci(releaser): added different changelog output ([cd3f162](https://github.com/Kirkhammetz/flaggy/commit/cd3f162))
 
 
 
