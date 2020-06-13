@@ -24,8 +24,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: bahmutov/npm-install@v1
-
       - name: Bump version and push tag
         id: changelog
         uses: TriPSs/conventional-changelog-action@v2
@@ -54,7 +52,6 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - uses: bahmutov/npm-install@v1
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
