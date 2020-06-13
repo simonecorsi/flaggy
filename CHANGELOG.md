@@ -1,5 +1,12 @@
+## <small>1.3.14 (2020-06-13)</small>
+
+* docs(tags): added tags ([5645e11](https://github.com/Kirkhammetz/flaggy/commit/5645e11))
+
+
+
 ## <small>1.3.13 (2020-06-13)</small>
 
+* chore(release): 1.3.13 ([7ea6ed1](https://github.com/Kirkhammetz/flaggy/commit/7ea6ed1))
 * build(npm): removed lodash dependency ([5455d2f](https://github.com/Kirkhammetz/flaggy/commit/5455d2f))
 
 
@@ -22,13 +29,6 @@
 
 * chore(release): 1.3.10 ([9cef163](https://github.com/Kirkhammetz/flaggy/commit/9cef163))
 * docs: better samples ([1f4ef39](https://github.com/Kirkhammetz/flaggy/commit/1f4ef39))
-
-
-
-## <small>1.3.9 (2020-06-12)</small>
-
-* chore(release): 1.3.9 ([45e39b9](https://github.com/Kirkhammetz/flaggy/commit/45e39b9))
-* docs(sample): added samples ([a4f1c61](https://github.com/Kirkhammetz/flaggy/commit/a4f1c61))
 
 
 
