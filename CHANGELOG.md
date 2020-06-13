@@ -1,5 +1,12 @@
+## <small>1.3.12 (2020-06-13)</small>
+
+* ci(cache): better npm cache ([98dbcf2](https://github.com/Kirkhammetz/flaggy/commit/98dbcf2)), closes [#17](https://github.com/Kirkhammetz/flaggy/issues/17)
+
+
+
 ## <small>1.3.11 (2020-06-13)</small>
 
+* chore(release): 1.3.11 ([566d8f3](https://github.com/Kirkhammetz/flaggy/commit/566d8f3))
 * ci(cache): added npm cache ([6b5d53f](https://github.com/Kirkhammetz/flaggy/commit/6b5d53f))
 
 
@@ -22,13 +29,6 @@
 
 * chore(release): 1.3.8 ([919b11b](https://github.com/Kirkhammetz/flaggy/commit/919b11b))
 * fix(module.exports): changed the way function are exported ([ac8258d](https://github.com/Kirkhammetz/flaggy/commit/ac8258d))
-
-
-
-## <small>1.3.7 (2020-06-12)</small>
-
-* chore(release): 1.3.7 ([35ae417](https://github.com/Kirkhammetz/flaggy/commit/35ae417))
-* docs(license): changed license ([39baca8](https://github.com/Kirkhammetz/flaggy/commit/39baca8))
 
 
 
