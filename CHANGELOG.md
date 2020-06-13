@@ -1,5 +1,12 @@
+## <small>1.3.13 (2020-06-13)</small>
+
+* build(npm): removed lodash dependency ([5455d2f](https://github.com/Kirkhammetz/flaggy/commit/5455d2f))
+
+
+
 ## <small>1.3.12 (2020-06-13)</small>
 
+* chore(release): 1.3.12 ([9e5d0cb](https://github.com/Kirkhammetz/flaggy/commit/9e5d0cb))
 * ci(cache): better npm cache ([98dbcf2](https://github.com/Kirkhammetz/flaggy/commit/98dbcf2)), closes [#17](https://github.com/Kirkhammetz/flaggy/issues/17)
 
 
@@ -22,13 +29,6 @@
 
 * chore(release): 1.3.9 ([45e39b9](https://github.com/Kirkhammetz/flaggy/commit/45e39b9))
 * docs(sample): added samples ([a4f1c61](https://github.com/Kirkhammetz/flaggy/commit/a4f1c61))
-
-
-
-## <small>1.3.8 (2020-06-12)</small>
-
-* chore(release): 1.3.8 ([919b11b](https://github.com/Kirkhammetz/flaggy/commit/919b11b))
-* fix(module.exports): changed the way function are exported ([ac8258d](https://github.com/Kirkhammetz/flaggy/commit/ac8258d))
 
 
 
