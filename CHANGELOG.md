@@ -1,5 +1,12 @@
+## <small>1.3.15 (2020-06-15)</small>
+
+* ci: removed need ([799aee3](https://github.com/Kirkhammetz/flaggy/commit/799aee3))
+
+
+
 ## <small>1.3.14 (2020-06-13)</small>
 
+* chore(release): 1.3.14 ([e10c5e6](https://github.com/Kirkhammetz/flaggy/commit/e10c5e6))
 * docs(tags): added tags ([5645e11](https://github.com/Kirkhammetz/flaggy/commit/5645e11))
 
 
@@ -22,13 +29,6 @@
 
 * chore(release): 1.3.11 ([566d8f3](https://github.com/Kirkhammetz/flaggy/commit/566d8f3))
 * ci(cache): added npm cache ([6b5d53f](https://github.com/Kirkhammetz/flaggy/commit/6b5d53f))
-
-
-
-## <small>1.3.10 (2020-06-12)</small>
-
-* chore(release): 1.3.10 ([9cef163](https://github.com/Kirkhammetz/flaggy/commit/9cef163))
-* docs: better samples ([1f4ef39](https://github.com/Kirkhammetz/flaggy/commit/1f4ef39))
 
 
 
