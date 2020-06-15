@@ -1,7 +1,9 @@
-## <small>1.3.15 (2020-06-15)</small>
+## <small>1.3.16 (2020-06-15)</small>
 
-* feat(ci): added github package workflow ([82949f8](https://github.com/Kirkhammetz/flaggy/commit/82949f8))
+* ci: added github package workflow ([dd8dac3](https://github.com/Kirkhammetz/flaggy/commit/dd8dac3))
 * ci: removed need ([799aee3](https://github.com/Kirkhammetz/flaggy/commit/799aee3))
+* chore(release): 1.3.15 ([ac38e66](https://github.com/Kirkhammetz/flaggy/commit/ac38e66))
+* feat(ci): added github package workflow ([82949f8](https://github.com/Kirkhammetz/flaggy/commit/82949f8))
 
 
 
