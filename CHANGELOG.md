@@ -1,8 +1,17 @@
+## <small>1.3.17 (2020-06-23)</small>
+
+* build(npmignore): slimmed down installation ([019730c](https://github.com/Kirkhammetz/flaggy/commit/019730c))
+* ci(action): added github release notes ([2b04f62](https://github.com/Kirkhammetz/flaggy/commit/2b04f62)), closes [#12](https://github.com/Kirkhammetz/flaggy/issues/12)
+* ci(action): added github release notes ([6b82a2b](https://github.com/Kirkhammetz/flaggy/commit/6b82a2b)), closes [#12](https://github.com/Kirkhammetz/flaggy/issues/12)
+
+
+
 ## <small>1.3.16 (2020-06-15)</small>
 
+* chore(release): 1.3.15 ([ac38e66](https://github.com/Kirkhammetz/flaggy/commit/ac38e66))
+* chore(release): 1.3.16 ([87ae3a4](https://github.com/Kirkhammetz/flaggy/commit/87ae3a4))
 * ci: added github package workflow ([dd8dac3](https://github.com/Kirkhammetz/flaggy/commit/dd8dac3))
 * ci: removed need ([799aee3](https://github.com/Kirkhammetz/flaggy/commit/799aee3))
-* chore(release): 1.3.15 ([ac38e66](https://github.com/Kirkhammetz/flaggy/commit/ac38e66))
 * feat(ci): added github package workflow ([82949f8](https://github.com/Kirkhammetz/flaggy/commit/82949f8))
 
 
@@ -25,13 +34,6 @@
 
 * chore(release): 1.3.12 ([9e5d0cb](https://github.com/Kirkhammetz/flaggy/commit/9e5d0cb))
 * ci(cache): better npm cache ([98dbcf2](https://github.com/Kirkhammetz/flaggy/commit/98dbcf2)), closes [#17](https://github.com/Kirkhammetz/flaggy/issues/17)
-
-
-
-## <small>1.3.11 (2020-06-13)</small>
-
-* chore(release): 1.3.11 ([566d8f3](https://github.com/Kirkhammetz/flaggy/commit/566d8f3))
-* ci(cache): added npm cache ([6b5d53f](https://github.com/Kirkhammetz/flaggy/commit/6b5d53f))
 
 
 
