@@ -9,6 +9,8 @@
 - [About The Project](#about-the-project)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Arguments](#arguments)
+  - [Output sample](#output-sample)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -46,6 +48,31 @@ You can use `flaggy` from command line providing `lcov.info` file location eg:
 const flaggy = require("flaggy");
 flaggy({ path: "/some/path", verbose: true }); // ["--path", "/some/path", "--verbose"]
 flaggy({ path: "/some/path", verbose: true }, true); // "--path /some/path --verbose"
+```
+
+### Arguments
+
+| parameter | type    | description                                                                 | default |
+| --------- | ------- | --------------------------------------------------------------------------- | ------- |
+| [0]       | Object  | Object with the value to stringify as flags                                 | null    |
+| [1]       | Boolean | Stringify result? if false returns argv array else return stringified flags | false   |
+
+### Output sample
+
+```js
+fstring = flaggy(
+  {
+    t: true,
+    number: 1,
+    boolean: true,
+    s: "short",
+    string: "hi",
+    iCantGetWhy: "This is so long",
+    weHaveListToo: ["one", "long value"],
+  },
+  true
+);
+// -t --number 1 --boolean -s short --string hi --i-cant-get-why="This is so long" --we-have-list-too one --we-have-list-too="long value"
 ```
 
 <!-- CONTRIBUTING -->

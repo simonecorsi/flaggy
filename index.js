@@ -26,11 +26,10 @@ function main(opts = {}, stringify = false) {
   return parsed;
 }
 
-if (require.main === module) {
-  module.exports = main;
-} else {
-  module.exports = {
-    parse,
-    main,
-  };
-}
+module.exports =
+  process.env.NODE_ENV !== "test"
+    ? main
+    : {
+        parse,
+        main,
+      };

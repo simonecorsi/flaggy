@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1
       - uses: actions/setup-node@v1
         with:
           node-version: "12"
-      - run: npm cit
+      - run: npm t
 
   version:
     needs: test
@@ -24,12 +25,23 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Bump version and push tag
+        id: changelog
         uses: TriPSs/conventional-changelog-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           git-message: "chore(release): {version}"
           tag-prefix: ""
-          release-count: 0
+          preset: ""
+
+      - name: Create github Release
+        uses: actions/create-release@master
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.changelog }}
 
       - name: Create github Release
         uses: actions/create-release@v1
