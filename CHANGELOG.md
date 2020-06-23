@@ -1,5 +1,11 @@
+## <small>1.3.18 (2020-06-23)</small>
+
+
+
+
 ## <small>1.3.17 (2020-06-23)</small>
 
+* chore(release): 1.3.17 ([e83febc](https://github.com/Kirkhammetz/flaggy/commit/e83febc))
 * build(npmignore): slimmed down installation ([019730c](https://github.com/Kirkhammetz/flaggy/commit/019730c))
 * ci(action): added github release notes ([2b04f62](https://github.com/Kirkhammetz/flaggy/commit/2b04f62)), closes [#12](https://github.com/Kirkhammetz/flaggy/issues/12)
 * ci(action): added github release notes ([6b82a2b](https://github.com/Kirkhammetz/flaggy/commit/6b82a2b)), closes [#12](https://github.com/Kirkhammetz/flaggy/issues/12)
@@ -27,13 +33,6 @@
 
 * chore(release): 1.3.13 ([7ea6ed1](https://github.com/Kirkhammetz/flaggy/commit/7ea6ed1))
 * build(npm): removed lodash dependency ([5455d2f](https://github.com/Kirkhammetz/flaggy/commit/5455d2f))
-
-
-
-## <small>1.3.12 (2020-06-13)</small>
-
-* chore(release): 1.3.12 ([9e5d0cb](https://github.com/Kirkhammetz/flaggy/commit/9e5d0cb))
-* ci(cache): better npm cache ([98dbcf2](https://github.com/Kirkhammetz/flaggy/commit/98dbcf2)), closes [#17](https://github.com/Kirkhammetz/flaggy/issues/17)
 
 
 
