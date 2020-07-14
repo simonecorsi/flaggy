@@ -1,5 +1,12 @@
+## <small>1.3.20 (2020-07-14)</small>
+
+* build(deps-dev): bump standard-version from 7.1.0 to 8.0.1 ([d1a11fe](https://github.com/Kirkhammetz/flaggy/commit/d1a11fe))
+
+
+
 ## <small>1.3.19 (2020-06-23)</small>
 
+* chore(release): 1.3.19 ([94f34a1](https://github.com/Kirkhammetz/flaggy/commit/94f34a1))
 * ci: fixed duplicated job ([6612eea](https://github.com/Kirkhammetz/flaggy/commit/6612eea))
 
 
@@ -26,13 +33,6 @@
 * ci: added github package workflow ([dd8dac3](https://github.com/Kirkhammetz/flaggy/commit/dd8dac3))
 * ci: removed need ([799aee3](https://github.com/Kirkhammetz/flaggy/commit/799aee3))
 * feat(ci): added github package workflow ([82949f8](https://github.com/Kirkhammetz/flaggy/commit/82949f8))
-
-
-
-## <small>1.3.14 (2020-06-13)</small>
-
-* chore(release): 1.3.14 ([e10c5e6](https://github.com/Kirkhammetz/flaggy/commit/e10c5e6))
-* docs(tags): added tags ([5645e11](https://github.com/Kirkhammetz/flaggy/commit/5645e11))
 
 
 
