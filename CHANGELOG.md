@@ -1,5 +1,12 @@
+## <small>1.3.23 (2021-04-08)</small>
+
+* build(deps): bump ini from 1.3.5 to 1.3.8 ([71f9727](https://github.com/simonecorsi/flaggy/commit/71f9727))
+
+
+
 ## <small>1.3.22 (2021-04-08)</small>
 
+* chore(release): 1.3.22 ([f1b4fb4](https://github.com/simonecorsi/flaggy/commit/f1b4fb4))
 * ci(gh-publish): removed unused action ([44cc50d](https://github.com/simonecorsi/flaggy/commit/44cc50d))
 
 
@@ -22,12 +29,6 @@
 
 * chore(release): 1.3.19 ([94f34a1](https://github.com/simonecorsi/flaggy/commit/94f34a1))
 * ci: fixed duplicated job ([6612eea](https://github.com/simonecorsi/flaggy/commit/6612eea))
-
-
-
-## <small>1.3.18 (2020-06-23)</small>
-
-* chore(release): 1.3.18 ([874dc1f](https://github.com/simonecorsi/flaggy/commit/874dc1f))
 
 
 
