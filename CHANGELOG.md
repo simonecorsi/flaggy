@@ -1,5 +1,12 @@
+## <small>1.3.22 (2021-04-08)</small>
+
+* ci(gh-publish): removed unused action ([44cc50d](https://github.com/simonecorsi/flaggy/commit/44cc50d))
+
+
+
 ## <small>1.3.21 (2021-04-08)</small>
 
+* chore(release): 1.3.21 ([9036331](https://github.com/simonecorsi/flaggy/commit/9036331))
 * build(deps): bump y18n from 4.0.0 to 4.0.1 ([0cd17ed](https://github.com/simonecorsi/flaggy/commit/0cd17ed))
 
 
@@ -21,15 +28,6 @@
 ## <small>1.3.18 (2020-06-23)</small>
 
 * chore(release): 1.3.18 ([874dc1f](https://github.com/simonecorsi/flaggy/commit/874dc1f))
-
-
-
-## <small>1.3.17 (2020-06-23)</small>
-
-* chore(release): 1.3.17 ([e83febc](https://github.com/simonecorsi/flaggy/commit/e83febc))
-* build(npmignore): slimmed down installation ([019730c](https://github.com/simonecorsi/flaggy/commit/019730c))
-* ci(action): added github release notes ([2b04f62](https://github.com/simonecorsi/flaggy/commit/2b04f62)), closes [#12](https://github.com/simonecorsi/flaggy/issues/12)
-* ci(action): added github release notes ([6b82a2b](https://github.com/simonecorsi/flaggy/commit/6b82a2b)), closes [#12](https://github.com/simonecorsi/flaggy/issues/12)
 
 
 
