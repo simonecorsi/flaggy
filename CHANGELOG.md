@@ -1,5 +1,12 @@
+## <small>1.3.28 (2021-08-31)</small>
+
+* build(deps): bump path-parse from 1.0.6 to 1.0.7 ([b637198](https://github.com/simonecorsi/flaggy/commit/b637198))
+
+
+
 ## <small>1.3.27 (2021-06-23)</small>
 
+* chore(release): 1.3.27 ([ef26d44](https://github.com/simonecorsi/flaggy/commit/ef26d44))
 
 
 
@@ -23,13 +30,6 @@
 * chore(release): 1.3.24 ([756048e](https://github.com/simonecorsi/flaggy/commit/756048e))
 * build(deps): bump handlebars from 4.7.6 to 4.7.7 ([73d0ed7](https://github.com/simonecorsi/flaggy/commit/73d0ed7))
 * build(deps): bump hosted-git-info from 2.8.8 to 2.8.9 ([f95d0ab](https://github.com/simonecorsi/flaggy/commit/f95d0ab))
-
-
-
-## <small>1.3.23 (2021-04-08)</small>
-
-* chore(release): 1.3.23 ([b57877e](https://github.com/simonecorsi/flaggy/commit/b57877e))
-* build(deps): bump ini from 1.3.5 to 1.3.8 ([71f9727](https://github.com/simonecorsi/flaggy/commit/71f9727))
 
 
 
