@@ -9,8 +9,8 @@
 - [About The Project](#about-the-project)
 - [Installation](#installation)
 - [Usage](#usage)
-  * [Arguments](#arguments)
-  * [Output sample](#output-sample)
+  - [Arguments](#arguments)
+  - [Output sample](#output-sample)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -42,7 +42,6 @@ npm i flaggy
 
 ## Usage
 
-
 ```js
 const flaggy = require("flaggy");
 flaggy({ d: true, path: "/some/path", verbose: true }); // ["--path", "/some/path", "--verbose", "-d"]
@@ -59,7 +58,7 @@ flaggy({ d: true, path: "/some/path", verbose: true }, true); // "--path /some/p
 ### Output sample
 
 ```js
-fstring = flaggy(
+const fstring = flaggy(
   {
     t: true,
     number: 1,
