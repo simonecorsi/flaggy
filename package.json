@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc --reporter=lcov  --reporter=text-summary ava",
-    "prepare": "husky install"
+    "prepare": "node prepare.js || echo 'Skipping prepare'"
   },
   "bugs": {
-    "url": "https://github.com/Kirkhammetz/flaggy/issues"
+    "url": "https://github.com/simonecorsi/flaggy/issues"
   },
   "config": {
     "commitizen": {
@@ -28,8 +28,8 @@
     "option parser",
     "options"
   ],
-  "homepage": "https://github.com/Kirkhammetz/flaggy",
-  "author": "Simone Corsi <simonecorsi.rm@gmail.com>",
+  "homepage": "https://github.com/simonecorsi/flaggy",
+  "author": "Simone Corsi <simonecorsi.dev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -41,6 +41,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^6.0.0",
+    "is-ci": "^3.0.0",
     "lint-staged": "^12.1.7",
     "markdown-toc": "^1.2.0",
     "nyc": "^15.1.0",
