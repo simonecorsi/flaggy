@@ -2,7 +2,7 @@
 
 <!-- PROJECT SHIELDS -->
 
-![tests](https://github.com/Kirkhammetz/flaggy/workflows/test/badge.svg)
+![tests](https://github.com/simonecorsi/flaggy/workflows/test/badge.svg)
 
 <!-- toc -->
 
