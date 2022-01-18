@@ -4,9 +4,20 @@
 
 ![tests](https://github.com/simonecorsi/flaggy/workflows/test/badge.svg)
 
+## About
+
+This packages aim is to simplify programmatically generate flags to use in Unix-style command by declaring them with an object literal and turning them into an array or a string of usable flags.
+
+**Why?**
+
+- You exec commands and need to provide options easily;
+- You want to avoid string concatenation to test easily;
+- you don't want to have an headache refactoring when needed.
+
+## Table of contents
+
 <!-- toc -->
 
-- [About The Project](#about-the-project)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Arguments](#arguments)
@@ -17,18 +28,6 @@
 - [Acknowledgements](#acknowledgements)
 
 <!-- tocstop -->
-
-## About The Project
-
-This packages aim is to simplify programmatically generate flags to use in Unix-style command by declaring them with an object literal and turning them into an array or a string of usable flags.
-
-Here's why:
-
-- You exec/spawn commands and need to provide options
-- You want to dynamically add flags without bunch of string concats
-- you don't want to have an headache refactoring when needed
-
-<!-- GETTING STARTED -->
 
 ## Installation
 
