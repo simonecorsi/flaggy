@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/simonecorsi/flaggy/compare/v1.4.0...v1.5.0) (2022-01-18)
+
+
+### Features
+
+* release ([dfddc44](https://github.com/simonecorsi/flaggy/commit/dfddc449c174161eaf71f17c40e9c8d12620ed86))
+
 # [1.1.0](https://github.com/simonecorsi/flaggy/compare/v1.0.0...v1.1.0) (2022-01-18)
 
 
