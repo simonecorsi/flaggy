@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/simonecorsi/flaggy/compare/v1.0.0...v1.1.0) (2022-01-18)
+
+
+### Features
+
+* bump major ([f5366d2](https://github.com/simonecorsi/flaggy/commit/f5366d2132b1e7a05d7e857edfbc44ebce3b6cbd))
+
 # 1.0.0 (2022-01-18)
 
 
